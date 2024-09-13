@@ -2,7 +2,7 @@ import string
 import random
 
 characters = string.digits + string.ascii_letters + "@" + "$" + "&" + "%" + " " 
-characters = list(characters)  ## separates character individually
+characters = list(characters)  ## separates character individually.
 key = characters.copy()
 
 random.shuffle(key)
